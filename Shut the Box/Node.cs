@@ -6,26 +6,26 @@ namespace Shut_the_Box;
 
 public class Node
 {
-    public double propability;
+    public double probability = 0;
 
-    public Edge[] successors = new Edge[13];
+    public int[] successors = new int[]{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1};
 
     public Node(double probability)
     {
-        this.propability = probability;
+        this.probability = probability;
     }
 
-    public void UpdateProb()
+    public void UpdateProb(Node[] states)
     {
         double sum = 0;
         for (int aaa = 0; aaa < 13; aaa++)
         {
-            if (successors[aaa] != null)
+            if (successors[aaa] != -1)
             {
-                sum += successors[aaa].prob;
+                sum += states[successors[aaa]].probability*Game.propabilities[aaa];
             }
         }
 
-        propability = sum;
+        probability = sum;
     }
 }

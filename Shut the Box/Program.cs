@@ -67,16 +67,33 @@ while (queue.Count != 0)
         {
             states[Game.GetPrecessor(cur,cur2)] = new Node(0);
         }
-        Edge newEdge = new Edge(cur, states[cur].propability*Game.propabilities[Game.GetSumFromFlipCombination(cur2)]);
         //Console.WriteLine(Game.GetPrecessor(cur,cur2) + " " + Game.GetSumFromFlipCombination(cur2));
-        if (states[Game.GetPrecessor(cur,cur2)].successors[Game.GetSumFromFlipCombination(cur2)] == null || newEdge.prob >
-            states[Game.GetPrecessor(cur,cur2)].successors[Game.GetSumFromFlipCombination(cur2)].prob)
+        if (states[Game.GetPrecessor(cur,cur2)].successors[Game.GetSumFromFlipCombination(cur2)] == -1 || states[cur].probability >
+            states[states[Game.GetPrecessor(cur,cur2)].successors[Game.GetSumFromFlipCombination(cur2)]].probability)
         {
-            states[Game.GetPrecessor(cur,cur2)].successors[Game.GetSumFromFlipCombination(cur2)] = newEdge;
-            states[Game.GetPrecessor(cur,cur2)].UpdateProb();
+            states[Game.GetPrecessor(cur,cur2)].successors[Game.GetSumFromFlipCombination(cur2)] = cur;
+            states[Game.GetPrecessor(cur,cur2)].UpdateProb(states);
         }
     }
     
 
 }
-Console.WriteLine(states[0].propability);
+
+for (int aaa = 0; aaa < 4096; aaa++)
+{
+    if (states[aaa] != null)
+    {
+        for (int aab = 0; aab < 13; aab++)
+        {
+            if (states[aaa].successors[aab] != -1)
+            {
+                if (states[states[aaa].successors[aab]].probability != states[states[aaa].successors[aab]].probability)
+                {
+                    Console.WriteLine();
+                }
+            }
+        }
+    }
+}
+
+Console.WriteLine(states[0].probability);
