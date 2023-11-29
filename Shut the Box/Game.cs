@@ -39,10 +39,9 @@ public class Game
                 }
             }
 
-            if (sum >= 2 && sum <= 12 //&& posCombination.Count<=2 //Max 2 flips
+            if (sum >= 2 && sum <= 12 // && posCombination.Count<=2 //Max 2 flips
                 )
             {
-                //Console.WriteLine(sum + " " + String.Join(", ", posCombination.ToArray()) +"   " +  aaa);
                 output.Add(new List<int>(posCombination));
             }
         }
@@ -71,5 +70,7 @@ public class Game
 
         return cur;
     }
+    
+    
     
 }
