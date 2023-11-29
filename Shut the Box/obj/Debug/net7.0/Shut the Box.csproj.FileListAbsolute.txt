@@ -1,0 +1,15 @@
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\bin\Debug\net7.0\Shut the Box.exe
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\bin\Debug\net7.0\Shut the Box.deps.json
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\bin\Debug\net7.0\Shut the Box.runtimeconfig.json
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\bin\Debug\net7.0\Shut the Box.dll
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\bin\Debug\net7.0\Shut the Box.pdb
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\obj\Debug\net7.0\Shut the Box.csproj.AssemblyReference.cache
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\obj\Debug\net7.0\Shut the Box.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\obj\Debug\net7.0\Shut the Box.AssemblyInfoInputs.cache
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\obj\Debug\net7.0\Shut the Box.AssemblyInfo.cs
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\obj\Debug\net7.0\Shut the Box.csproj.CoreCompileInputs.cache
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\obj\Debug\net7.0\Shut the Box.dll
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\obj\Debug\net7.0\refint\Shut the Box.dll
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\obj\Debug\net7.0\Shut the Box.pdb
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\obj\Debug\net7.0\Shut the Box.genruntimeconfig.cache
+C:\Users\magle\Desktop\Dateien\Cs\Shut the Box\Shut the Box\obj\Debug\net7.0\ref\Shut the Box.dll

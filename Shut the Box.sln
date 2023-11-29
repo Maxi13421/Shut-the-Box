@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shut the Box", "Shut the Box\Shut the Box.csproj", "{157E9351-6E5A-4DC2-9934-9B6EFD0B5D3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{157E9351-6E5A-4DC2-9934-9B6EFD0B5D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157E9351-6E5A-4DC2-9934-9B6EFD0B5D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157E9351-6E5A-4DC2-9934-9B6EFD0B5D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157E9351-6E5A-4DC2-9934-9B6EFD0B5D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
