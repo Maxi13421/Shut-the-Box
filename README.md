@@ -13,4 +13,4 @@ Solutions are provided for both variants:
 
 See the optimal strategy here: https://drive.google.com/drive/u/2/folders/1_ipx119W7tM4GtMSeMdOb6QWbCI2kE4P
  
-Post that this project is based on: https://www.reddit.com/r/theydidthemath/comments/185r37b/request_whats_the_probability_to_clear_the_board/
+Post this project is based on: https://www.reddit.com/r/theydidthemath/comments/185r37b/request_whats_the_probability_to_clear_the_board/
